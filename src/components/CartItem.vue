@@ -7,12 +7,22 @@
       <p class="description__name">
         {{ item.name }}
       </p>
-      <p class="description__info">
+      <p v-if="item.real_price === undefined" class="description__info">
         {{ item.description }}
       </p>
+      <p v-else class="description__info">
+        {{ this.rolls }} 
+      </p>
+      <div v-if="item.additional !== undefined" class="checkBoxes">
+        <input type="checkbox" :value="item.additional[0]" v-model="usedSauce" />
+        <label>{{ item.additional[0] }}</label>
+        <br>
+        <input type="checkbox" :value="item.additional[1]" v-model="usedSauce" />
+        <label>{{ item.additional[1] }}</label>
+      </div>
     </div>
     <div class="itemControl">
-      <my-item-price class="control__price">
+      <my-item-price class="control__price" :color="'gray'">
         {{ this.item.quantity * this.item.price + " AED"}}
       </my-item-price>
       <div class="control__nums">
@@ -48,12 +58,25 @@
 
 export default {
   name: "cart-item",
+  data() {
+    return {
+      rolls: "",
+      usedSauce: []
+    }
+  },
   props: {
     item: {
       type: Object,
       default() {
         return {}
       }
+    }
+  },
+  mounted() {
+    if (this.item.real_price !== undefined) {
+      this.item.products.forEach(product => {
+        this.rolls = this.rolls + " " + product.name
+      });
     }
   }
 }
@@ -147,6 +170,13 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.checkBoxes p,
+.checkBoxes label {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+.checkBoxes input {
+  margin: .4rem;
 }
 @media (max-width: 1220px) {
   .itemWrapper {

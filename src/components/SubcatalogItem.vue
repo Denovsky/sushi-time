@@ -12,7 +12,7 @@
         :key="product.name"
         :item="product"
         :color="'gray'"
-        @addToCart="addToCart"
+        @addToCart="addToProductCart"
       >
       </product-item>
     </div>
@@ -21,7 +21,7 @@
         v-for="sets in subcatalog.products"
         :key="sets.name"
         :sets="sets"
-        @addToCart="addToCart"
+        @addSetToCart="addToProductCart"
       >
 
       </set-item>
@@ -70,14 +70,13 @@ export default {
       if (this.subcatalog.type === 'product') {
         return true
       } else {
-        console.log(this.subcatalog)
         return false
       }
     },
     ...mapActions([
       'ADD_TO_CART'
     ]),
-    addToCart(item) {
+    addToProductCart(item) {
       this.ADD_TO_CART(item)
     }
   }

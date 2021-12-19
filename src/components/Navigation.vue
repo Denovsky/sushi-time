@@ -4,6 +4,7 @@
       v-for="btns in products"
       :key="btns.name"
       :href="`#${btns.name}`"
+      style="text-decoration: none;"
     >
       <p>{{ btns.name }}</p>
     </my-nav-btn>

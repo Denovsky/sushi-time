@@ -4,8 +4,11 @@
       {{ this.sets.name }}
     </my-sign>
     <p style="font-size: 24px;">
-      {{ this.sets.mass }}
+      {{ this.sets.mass + " - " + this.sets.price + " AED" }}
     </p>
+    <s style="font-size: 24px;">
+      {{ this.sets.real_price + " AED"}}
+    </s>
     <div class="products__wrapper">
       <product-item
         v-for="product in sets.products"
@@ -17,9 +20,9 @@
       </product-item>
     </div>
     <my-item-btn 
-      @click="$emit('addToCart', this.sets)"
+      @click="addToCart(this.sets)"
       style="
-        width: 30%;
+        width: 150px;
         height: 50px;
       "
     >Add set in cart</my-item-btn>

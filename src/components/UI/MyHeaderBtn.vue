@@ -15,6 +15,7 @@ export default {
   line-height: 1;
   cursor: pointer;
   position: relative;
+  text-align: center;
 
   font-family: "Roboto", sans-serif;
   font-size: 18px;

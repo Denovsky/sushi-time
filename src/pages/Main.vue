@@ -5,7 +5,6 @@
     >
     </navigation>
     <div class="catalogWrapper">
-      <my-sign>Menu</my-sign>
       <catalog-item
         v-for="product in PRODUCTS"
         :key="product.name"
@@ -41,7 +40,7 @@ export default {
     this.GET_PRODUCTS_FROM_API()
         .then((response) => {
           if (response.data) {
-            console.log("Data succesfully arrived")
+            console.log("The data arrived successfully!")
           }
         })
   }

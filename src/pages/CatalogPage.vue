@@ -11,6 +11,7 @@
         v-for="product in subcatalog.products"
         :key="product.name"
         :item="product"
+        :color="'gray'"
         @addToCart="addToCart"
       >
       </product-item>
@@ -57,10 +58,8 @@ export default {
     },
     get_name(catalogs) {
       for (let catalog of catalogs) {
-        console.log(catalog)
         for (let subcatalog of catalog.subcatalog) {
           if (subcatalog.prefix === this.$route.params.id) {
-            console.log(subcatalog.name)
             this.subcatalog = subcatalog
             return subcatalog.name
           }
@@ -72,7 +71,6 @@ export default {
       if (this.subcatalog.type === 'product') {
         return true
       } else {
-        console.log(this.subcatalog)
         return false
       }
     }

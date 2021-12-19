@@ -13,12 +13,12 @@
     </div>
     <div class="itemControl">
       <my-item-price
-        :color="this.color"
+        :color="color"
       >
         {{ item.price + " AED" }}
       </my-item-price>
       <my-item-btn
-        @click="$emit('addToCart', this.item)"
+        @click="$emit('addToCart', item)"
       > In cart </my-item-btn>
     </div>
   </div>

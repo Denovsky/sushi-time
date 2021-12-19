@@ -35,7 +35,9 @@ export default {
   align-items: flex-start;
 }
 .background__btnsMenu {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
   width: 100%;
+  height: 70px;
   background-color: #ececec;
   display: flex;
   flex-direction: row;

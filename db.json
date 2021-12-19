@@ -310,42 +310,42 @@
             "name": "Baked Roll's",
             "products": [
               {
-                "name": "Salmon Roll's:",
+                "name": "Baked Salmon Roll's:",
                 "mass": "8 pieces - 310 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, tobiko, salmon, cheese sauce",
                 "price": 40
               },
               {
-                "name": "Eel Roll's:",
+                "name": "Baked Eel Roll's:",
                 "mass": "8 pieces - 275 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, eel, cheese sauce",
                 "price": 40
               },
               {
-                "name": "Tuna Roll's:",
+                "name": "Baked Tuna Roll's:",
                 "mass": "8 pieces - 275 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, tuna, cheese sauce",
                 "price": 40
               },
               {
-                "name": "Crab Roll's:",
+                "name": "Baked Crab Roll's:",
                 "mass": "8 pieces - 305 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, tobiko, crab stick, cheese sauce",
                 "price": 35
               },
               {
-                "name": "Chicken Roll's:",
+                "name": "Baked Chicken Roll's:",
                 "mass": "8 pieces - 295 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, chicken, cheese sauce, sesame seeds",
                 "price": 35
               },
               {
-                "name": "Shrimp Roll's:",
+                "name": "Baked Shrimp Roll's:",
                 "mass": "8 pieces - 275 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, tomago, cucumber, shrimp, cheese sauce",
@@ -359,42 +359,42 @@
             "name": "Baked Spicy Roll's",
             "products": [
               {
-                "name": "Salmon Roll's:",
+                "name": "Baked Spicy Salmon Roll's:",
                 "mass": "8 pieces - 285 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, salmon, salad, spicy sauce",
                 "price": 40
               },
               {
-                "name": "Eel Roll's:",
+                "name": "Baked Spicy Eel Roll's:",
                 "mass": "8 pieces - 270 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, eel, spicy sauce, sesame seeds",
                 "price": 40
               },
               {
-                "name": "Tuna Roll's:",
+                "name": "Baked Spicy Tuna Roll's:",
                 "mass": "8 pieces - 285 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, tuna, salad, spicy sauce",
                 "price": 40
               },
               {
-                "name": "Crab Roll's:",
+                "name": "Baked Spicy Crab Roll's:",
                 "mass": "8 pieces - 285 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, crab stick, salad, spicy sauce",
                 "price": 35
               },
               {
-                "name": "Chicken Roll's:",
+                "name": "Baked Spicy Chicken Roll's:",
                 "mass": "8 pieces - 295 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, chicken, salad, spicy sauce, white and black sesame",
                 "price": 35
               },
               {
-                "name": "Shrimp Roll's:",
+                "name": "Baked Spicy Shrimp Roll's:",
                 "mass": "8 pieces - 285 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, shrimp, salad, cheese spicy sauce",
@@ -408,49 +408,49 @@
             "name": "Tempura Roll's",
             "products": [
               {
-                "name": "Spicy Eby Roll's:",
+                "name": "Tempura Spicy Eby Roll's:",
                 "mass": "8 pieces - 255 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, avocado, shrimp, spicy sauce, tobiko red",
                 "price": 40
               },
               {
-                "name": "Crab Roll's:",
+                "name": "Tempura Crab Roll's:",
                 "mass": "8 pieces - 260 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, avocado, crab, tobiko orange",
                 "price": 35
               },
               {
-                "name": "Chicken Roll's:",
+                "name": "Tempura Chicken Roll's:",
                 "mass": "8 pieces - 245 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, chicken",
                 "price": 35
               },
               {
-                "name": "Salmon Roll's:",
+                "name": "Tempura Salmon Roll's:",
                 "mass": "8 pieces - 245 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, salmon",
                 "price": 40
               },
               {
-                "name": "Eel Roll's:",
+                "name": "Tempura Eel Roll's:",
                 "mass": "8 pieces - 250 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, avocado, eel, sesame seed",
                 "price": 45
               },
               {
-                "name": "Tuna Roll's:",
+                "name": "Tempura Tuna Roll's:",
                 "mass": "8 pieces - 260 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, tuna, tobiko",
                 "price": 45
               },
               {
-                "name": "Shrimp Roll's:",
+                "name": "Tempura Shrimp Roll's:",
                 "mass": "8 pieces - 235 g",
                 "img": "1.1.png",
                 "description": "Rice, nori, cheese, cucumber, shrimp, tobiko red",
@@ -467,7 +467,6 @@
                 "name": "Set №1:",
                 "mass": "28 pieces",
                 "img": "1.1.png",
-                "type": "product",
                 "products": [ 
                   {
                     "name": "Philadelphia Classic Roll's:",
@@ -866,69 +865,69 @@
         "name": "Nigiri Sushi",
         "products": [
           {
-            "name": "Salmon:",
+            "name": "Salmon Sushi:",
             "mass": "2 pieces - 80 g",
             "img": "1.1.png",
             "description": "Rice, nori, salmon",
             "price": 20,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           },
           {
-            "name": "Tuna:",
+            "name": "Tuna Sushi:",
             "mass": "2 pieces - 80 g",
             "img": "1.1.png",
-            "description": "Rice, nori, salmon",
+            "description": "Rice, nori, tuna",
             "price": 20,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           },
           {
-            "name": "Shrimp:",
+            "name": "Shrimp Sushi:",
             "mass": "2 pieces - 80 g",
             "img": "1.1.png",
-            "description": "Rice, nori, salmon",
+            "description": "Rice, nori, shrimp",
             "price": 20,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           },
           {
-            "name": "Eel:",
+            "name": "Eel Sushi:",
             "mass": "2 pieces - 80 g",
             "img": "1.1.png",
             "description": "Rice, nori, eel",
             "price": 25,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           },
           {
-            "name": "Avocado:",
+            "name": "Avocado Sushi:",
             "mass": "2 pieces - 80 g",
             "img": "1.1.png",
             "description": "Rice, nori, avocado",
             "price": 15,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           },
           {
-            "name": "Gunkan Chuka",
+            "name": "Gunkan Chuka:",
             "mass": "2 pieces - 120 g",
             "img": "1.1.png",
             "description": "Rice, nori, chuka",
             "price": 20,
             "additional": [
-              "spicy sauce",
-              "baking"
+              "Spicy sauce",
+              "Baked"
             ]
           }
         ]

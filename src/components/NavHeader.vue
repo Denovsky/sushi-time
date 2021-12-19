@@ -24,7 +24,9 @@
         <my-header-btn>
           News
         </my-header-btn>
-        <my-header-btn>
+        <my-header-btn
+          @click="$router.push('/about')"
+        >
           About us
         </my-header-btn>
         <p>
@@ -66,34 +68,37 @@
   <menu-computer-btns
     v-model:show="isOpenComputerMenu"
   >
-    <my-menu-btns
+    <my-header-btn
         v-for="item in curentCatalog.subcatalog"
         :key="item.name"
+        :orintation="'left'"
         @click="closeMenu(item)"
       >
         {{ item.name }}
-    </my-menu-btns>
+    </my-header-btn>
   </menu-computer-btns>
   <menu-btns
     v-model:show="isOpenTelephoneMenu"
   >
     <div v-if="isShowSubcatalog" class="selectSubcatalogWrapper">
-      <my-menu-btns
-          v-for="product in curentCatalog.subcatalog"
-          :key="product.name"
-          @click="closeMenu(product)"
-        >
-          {{ product.name }}
-      </my-menu-btns>
+      <my-header-btn
+        v-for="product in curentCatalog.subcatalog"
+        :key="product.name"
+        :orintation="'top'"
+        @click="closeMenu(product)"
+      >
+        {{ product.name }}
+      </my-header-btn>
     </div>
     <div class="telephoneMenuWrapper">
-      <my-menu-btns
+      <my-header-btn
           v-for="product in PRODUCTS"
           :key="product.name"
+          :orintation="'top'"
           @click="closeTelephoneMenu(product)"
         >
           {{ product.name }}
-      </my-menu-btns>
+      </my-header-btn>
     </div>
   </menu-btns>
 </template>
@@ -235,9 +240,14 @@ export default {
 }
 .telephoneMenuWrapper,
 .selectSubcatalogWrapper {
+  padding: 0px 5px;
+  width: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+.selectSubcatalogWrapper {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
 }
 </style>
