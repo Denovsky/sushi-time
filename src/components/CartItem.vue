@@ -13,12 +13,12 @@
       <p v-else class="description__info">
         {{ this.rolls }} 
       </p>
-      <div v-if="item.additional !== undefined" class="checkBoxes">
-        <input type="checkbox" :value="item.additional[0]" v-model="usedSauce" />
-        <label>{{ item.additional[0] }}</label>
+      <div v-if="item.potential_additive !== undefined" class="checkBoxes">
+        <input type="checkbox" :value="item.potential_additive[0]" v-model="item.additive" />
+        <label>{{ item.potential_additive[0] }}</label>
         <br>
-        <input type="checkbox" :value="item.additional[1]" v-model="usedSauce" />
-        <label>{{ item.additional[1] }}</label>
+        <input type="checkbox" :value="item.potential_additive[1]" v-model="item.additive" />
+        <label>{{ item.potential_additive[1] }}</label>
       </div>
     </div>
     <div class="itemControl">
@@ -60,8 +60,7 @@ export default {
   name: "cart-item",
   data() {
     return {
-      rolls: "",
-      usedSauce: []
+      rolls: ""
     }
   },
   props: {

@@ -870,10 +870,11 @@
             "img": "1.1.png",
             "description": "Rice, nori, salmon",
             "price": 20,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
           },
           {
             "name": "Tuna Sushi:",
@@ -881,10 +882,12 @@
             "img": "1.1.png",
             "description": "Rice, nori, tuna",
             "price": 20,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
+
           },
           {
             "name": "Shrimp Sushi:",
@@ -892,10 +895,11 @@
             "img": "1.1.png",
             "description": "Rice, nori, shrimp",
             "price": 20,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
           },
           {
             "name": "Eel Sushi:",
@@ -903,10 +907,11 @@
             "img": "1.1.png",
             "description": "Rice, nori, eel",
             "price": 25,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
           },
           {
             "name": "Avocado Sushi:",
@@ -914,10 +919,11 @@
             "img": "1.1.png",
             "description": "Rice, nori, avocado",
             "price": 15,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
           },
           {
             "name": "Gunkan Chuka:",
@@ -925,10 +931,11 @@
             "img": "1.1.png",
             "description": "Rice, nori, chuka",
             "price": 20,
-            "additional": [
+            "potential_additive": [
               "Spicy sauce",
               "Baked"
-            ]
+            ],
+            "additive": []
           }
         ]
       }
